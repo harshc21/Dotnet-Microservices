@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZE2PIaKRD+FUwCazNnzBEVP5kO5LxObXyHtbTv9itwB7SpNZxkge+qQsKXy9mbZLGpQt9uTThTPpnjOpt7yh/A==",
+  "success": false,
+  "projectFilePath": "C:\\Harsh Backup\\Microservices\\APIGateway\\APIGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\harsh.chheda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "APIGateway depends on Microsoft.VisualStudio.Azure.Containers.Tools.Targets (>= 1.14.0) but Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.14.0 was not found. An approximate best match of Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.17.0 was resolved.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Ocelot. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Local, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Ocelot",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Ocelot.Provider.Polly. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Local, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Ocelot.Provider.Polly",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MMLib.SwaggerForOcelot. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Local, Microsoft Visual Studio Offline Packages",
+      "libraryId": "MMLib.SwaggerForOcelot",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

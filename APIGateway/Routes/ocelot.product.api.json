@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/Product/SaveProduct",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/Product/SaveProduct",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "ProductServices"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Product/GetAllProductListing",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/Product/GetAllProductListing",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "ProductServices"
+    }
+  ]
+}

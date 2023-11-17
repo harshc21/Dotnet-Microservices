@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/Customer/SaveCustomer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/Customers/SaveCustomer",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "CustomerServices"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Customer/GetAllCustomersList",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/Customers/GetAllCustomersList",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "CustomerServices"
+    }
+  ]
+}
